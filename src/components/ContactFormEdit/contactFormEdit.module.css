@@ -1,0 +1,23 @@
+.formStyle {
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: 500;
+}
+.buttonEditWrapper {
+  text-align: center;
+}
+.buttonEdit {
+  display: block;
+  width: 120px;
+  padding: 8px;
+  margin: 0 auto;
+  background-color: dimgrey;
+  border: none;
+}
+.buttonEdit:hover,
+.buttonEdit:focus {
+  background-color: rgb(183, 180, 180);
+}
+.buttonEdit:active {
+  background-color: rgb(183, 180, 180) !important;
+}

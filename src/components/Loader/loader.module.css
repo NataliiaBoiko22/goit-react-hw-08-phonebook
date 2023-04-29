@@ -1,0 +1,21 @@
+.loaderWrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.loader {
+  height: 45px;
+  width: 45px;
+}
+@media screen and (min-width: 480px) {
+  .loader {
+    height: 60px;
+    width: 60px;
+  }
+}
+@media screen and (min-width: 7680px) {
+  .loader {
+    height: 80px;
+    width: 80px;
+  }
+}

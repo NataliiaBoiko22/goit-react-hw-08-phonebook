@@ -1,0 +1,40 @@
+.header {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: inherit;
+  z-index: 999;
+  align-items: center;
+  background-color: #696969;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .header {
+    padding: 10px;
+    min-width: 480px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 12px;
+
+    min-width: 768px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    padding: 15px;
+
+    min-width: 1200px;
+    font-size: 20px;
+  }
+}

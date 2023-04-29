@@ -1,0 +1,39 @@
+.contactInfo {
+  width: 70%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.buttonStyle {
+  padding: 3px 5px 5px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: grey;
+  margin-left: 10px;
+}
+.buttonStyle:hover {
+  background-color: lightgreen;
+}
+
+.name {
+  font-weight: 400;
+}
+
+@media screen and (min-width: 480px) {
+  .buttonStyle {
+    padding: 5px 10px 7px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-weight: 500;
+  }
+  .contactInfo {
+    font-size: 20px;
+  }
+}

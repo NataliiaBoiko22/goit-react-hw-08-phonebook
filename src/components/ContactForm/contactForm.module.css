@@ -1,0 +1,17 @@
+.form {
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.buttonAdd {
+  display: block;
+  width: 120px;
+  padding: 8px;
+  margin: 0 auto;
+  background-color: dimgrey;
+  border: none;
+}
+.buttonAdd:hover {
+  background-color: rgb(151, 151, 151);
+}

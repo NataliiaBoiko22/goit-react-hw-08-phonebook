@@ -1,0 +1,63 @@
+.registerTitle {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 10px;
+  width: 300px;
+  font-weight: 500;
+}
+
+.password {
+  position: relative;
+}
+
+.buttonPasswordR {
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  z-index: 3;
+}
+
+.buttonSignUp {
+  padding: 10px 15px;
+  border: none;
+  background-color: #696969;
+  transition: all 250ms ease-in-out;
+}
+.buttonSignUp:hover,
+.buttonSignUp:focus {
+  background-color: #a2a0a0;
+}
+.buttonSignUp:active {
+  background-color: #a2a0a0 !important;
+}
+.passwordText {
+  font-size: 10px;
+}
+@media screen and (min-width: 480px) {
+  .registerTitle {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .form {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .registerTitle {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .form {
+    width: 600px;
+  }
+  .passwordText {
+    font-size: 14px;
+  }
+}

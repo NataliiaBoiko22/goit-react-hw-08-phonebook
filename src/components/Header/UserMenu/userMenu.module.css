@@ -1,0 +1,63 @@
+.userMenuContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userImage {
+  display: none;
+}
+
+.logOutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 30px;
+  padding: 2px;
+}
+.logOutSpan {
+  display: none;
+}
+.userName {
+  color: #fff;
+}
+
+@media screen and (min-width: 480px) {
+  .logOutBtn {
+    min-width: 40px;
+    padding: 2px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logOutSpan {
+    display: block;
+  }
+  .userImage {
+    width: 24px;
+    height: 24px;
+    display: block;
+    fill: #fffaf0;
+  }
+  .logOutBtn {
+    min-width: 100px;
+    padding: 5px 8px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logOutSpan {
+    display: block;
+  }
+  .userImage {
+    width: 32px;
+    height: 32px;
+    display: block;
+    fill: #fffaf0;
+  }
+  .logOutBtn {
+    min-width: 120px;
+    padding: 5px 8px;
+  }
+}

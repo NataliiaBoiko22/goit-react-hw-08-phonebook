@@ -1,0 +1,51 @@
+.floatingLabel {
+  padding: 0;
+  height: 50px;
+}
+
+.filterInput {
+  width: 200px;
+  height: 50px !important;
+}
+
+.filterWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.inputGroup {
+  width: 60%;
+}
+
+@media screen and (min-width: 480px) {
+  .filterInput {
+    width: 250px;
+    height: 50px !important;
+  }
+
+  .floatingLabel {
+    padding: auto;
+    height: 50px;
+  }
+
+  .inputGroup {
+    width: 50%;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filterInput {
+    width: 430px;
+    height: 55px !important;
+  }
+  .floatingLabel {
+    padding: 0;
+  }
+  .inputGroup {
+    width: 40%;
+    height: 55px;
+  }
+}

@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
 
 body {
   margin: 0;
@@ -12,4 +12,57 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', cursive;
+}
+
+main {
+  margin-top: 7%;
+}
+.modal-backdrop {
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  right: 0;
+}
+.modal {
+  margin: 0 auto;
+  width: 300px;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .modal {
+    margin: 0 auto;
+    width: 460px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
 }

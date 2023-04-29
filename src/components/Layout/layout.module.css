@@ -1,0 +1,30 @@
+.container {
+  width: 340px;
+  margin: 0 auto;
+  padding: 30px 0;
+  flex-grow: 1;
+}
+
+.box {
+  width: 320px;
+  margin: 20px auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (min-width: 480px) {
+  .box {
+    min-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    min-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .box {
+    min-width: 1200px;
+  }
+}
