@@ -7,7 +7,6 @@ import PropTypes from 'prop-types';
 import css from './contactForm.module.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 
 export const ContactForm = ({ onClose }) => {

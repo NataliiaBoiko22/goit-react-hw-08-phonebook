@@ -33,7 +33,7 @@ const Contacts = () => {
       {error && <div>Sorry, something went wrong :( Please try again</div>}
       {items.length > 0 && !isLoading && <ContactList />}
       {!isLoading && items.length === 0 && (
-        <div className={css.noContacts}>There are any contacts yet</div>
+        <div className={css.noContacts}>There are no contacts yet</div>
       )}
       {show && (
         <Modal
