@@ -61,9 +61,6 @@ export const RegisterForm = () => {
     setValidated(true);
 
     dispatch(register({ name, email, password }));
-    setName('');
-    setEmail('');
-    setPassword('');
   };
   return (
     <Form

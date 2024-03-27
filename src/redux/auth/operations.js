@@ -1,4 +1,3 @@
-
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { toast } from 'react-toastify';
@@ -26,9 +25,7 @@ export const register = createAsyncThunk(
       return data;
     } catch (error) {
       if (error.response.status === 400) {
-        toast.error(
-          `Something wrong :( Please check your email or password and try again`
-        );
+        toast.error(`Invalid email.`);
         return thunkAPI.rejectWithValue(error.message);
       }
       return thunkAPI.rejectWithValue(error.message);
